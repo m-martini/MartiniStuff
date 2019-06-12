@@ -8,4 +8,4 @@ Things I don't want to forget
 Code snippets
 Gists
 
-and now we add some text
+This repository is used for learning about Git sibtelties, the history may look very interesting.
