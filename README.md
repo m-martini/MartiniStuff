@@ -2,7 +2,7 @@
 
 A sandbox of miscellaneous things python
 
-How I wish I had gone about learning python (may others learn from me)
+How I wish I had gone about learning python (may others learn from me):  https://github.com/mmartini-noaa/MartiniStuff/wiki
 
 Some things I don't want to forget reside here.
 
