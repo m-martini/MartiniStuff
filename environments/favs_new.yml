@@ -1,0 +1,98 @@
+name: favs
+# updated from IOOS on 4/19/2019 from
+# https://raw.githubusercontent.com/ioos/notebooks_demos/master/environment.yml
+# pip commands added per
+# https://stackoverflow.com/questions/35245401/combining-conda-environment-yml-with-pip-requirements-txt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - arrow
+  - astropy
+  - autopep8
+  - bagit
+  - beautifulsoup4
+  - bokeh
+  - cartopy
+  - cc-plugin-glider
+  - cc-plugin-ncei
+  - compliance-checker
+  - cython
+  - easyargs
+  - erddapy
+  - fiona
+  - flake8
+  - folium
+  - gdal
+  - geojson
+  - geojsonio
+  - geolinks
+  - geopandas
+  - geos
+  - gridgeo
+  - hvplot
+  - ioos-tools
+  - jupyter
+  - jupyter_contrib_nbextensions
+  # no jupyterlab for now, does not seem to support holoviz
+  #  - jupyterlab
+  - matplotlib
+  - nb_conda_kernels
+  - nbdime
+  - nc-time-axis
+  - nco
+  - netcdf4
+  - numpy
+  - oceans
+  - oct2py
+  - owslib
+  - palettable
+  - pandas
+  - phantomjs
+  - pocean-core
+  - proj4
+  - psutil
+  - pygc
+  - pykdtree
+  - pyoos
+  - pyproj
+  - pyresample
+  - pysgrid
+  - pytest
+  - pyugrid
+  - pyviz::datashader
+  - pyviz::holoviews  
+  - pyviz::geoviews
+  - pyviz::hvplot  
+  - pyviz::panel  
+  - pyyaml
+  - rasterio
+  - rise
+  - seaborn
+  - seawater
+  - selenium
+  - sensorml2iso
+  - shapely
+  - siphon
+  - spyder
+  - statsmodels
+  - sympy
+  - thredds_crawler
+  - tqdm
+  - twine
+  - utide
+  - windrose
+  - xarray
+  - xlrd
+  - xmltodict
+  - pip
+  - pip:
+    - ADCPy
+    # for docs generation
+    - recommonmark
+    # stglib
+    # need to previosly clone stglib from
+    # stglib at https://github.com/dnowacki-usgs/stglib.git
+    # manual install is pip install -e . --no-deps
+    # - C:/projects/python/stglib
